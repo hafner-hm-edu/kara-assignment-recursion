@@ -28,7 +28,7 @@ endif::[]
 [TIP]
 ====
 
-Dieses Übungsblatt (uns das Thema Rekusion) ist nicht prüfungsrelevant und nur als Ansporn für Studierende mit bestehenden Programmierkenntnissen gedacht. Mögliche Abgabe bis zum 27.11. 23:00. Laden Sie Ihre Lösung im https://classroom.github.com/a/0WWqQVfx[GitHub Classroom Kara Recursion] Projekt auf den eigenen `main` Branch hoch. Im Praktikum zeigen wir Ihnen, wie Sie dies am einfachsten umsetzen.
+Dieses Übungsblatt (uns das Thema Rekusion) ist nicht prüfungsrelevant und nur als Ansporn für Studierende mit bestehenden Programmierkenntnissen gedacht. Mögliche Abgabe bis zum 27.11. 23:00. Laden Sie Ihre Lösung im https://classroom.github.com/a/X7FW0Y9t[GitHub Classroom Kara Recursion] Projekt auf den eigenen `main` Branch hoch. Im Praktikum zeigen wir Ihnen, wie Sie dies am einfachsten umsetzen.
 
 ====
 
