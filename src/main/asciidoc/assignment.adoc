@@ -1,12 +1,11 @@
 = Übungsblatt zur Rekursion - Softwareentwicklung I
-:icons: font
 Prof. Dr. Ullrich Hafner <ullrich.hafner@hm.edu>
+:icons: font
 :toc-title: Inhaltsverzeichnis
 :chapter-label:
 :chapter-refsig: Kapitel
 :section-label: Abschnitt
 :section-refsig: Abschnitt
-:stem:
 
 :xrefstyle: short
 :!sectnums:
@@ -24,6 +23,7 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
+:stem: latex-math
 
 [TIP]
 ====
@@ -48,13 +48,13 @@ Und noch ein letzter Tipp: in vielen Aufgaben benötigen Sie die Breite oder Hö
 
 == X17. Sierpinski Teppich
 
-Malen Sie mit Kara den nach der folgenden rekursiven Formel definierten Sierpinski Teppich (siehe https://de.wikipedia.org/wiki/Sierpinski-Teppich) in einer leeren quadratischen Welt der Größe stem:[(3^s)*(3^s) (s∈N,s≥1)]. Kara steht am Anfang in der linken oberen Ecke mit Blick nach rechts.
+Malen Sie mit Kara den nach der folgenden rekursiven Formel definierten Sierpinski Teppich (siehe https://de.wikipedia.org/wiki/Sierpinski-Teppich) in einer leeren quadratischen Welt der Breite und Höhe 3^s (s ist eine natürliche Zahl > 0). Kara steht wie immer am Anfang in der linken oberen Ecke mit Blick nach rechts.
 
-Ist stem:[s=1] und damit die Größe des Quadrats 3 x 3, dann fülle das Feld in der Mitte (siehe 1. Bild) mit einem Blatt, alle anderen 8 Felder bleiben leer. Ist stem:[s>1], dann teile das Quadrat in 9 gleiche Quadrate, das mittlere Quadrat wird dabei komplett mit Blättern gefüllt. Jedes der verbleibenden 8 Quadrate wird wieder nach demselben Schema weiter unterteilt.
+Ist s = 1 und damit die Größe des Quadrats 3 x 3, dann fülle das Feld in der Mitte (siehe 1. Bild) mit einem Blatt, alle anderen 8 Felder bleiben leer. Ist s > 1, dann teile das Quadrat in 9 gleiche Quadrate, das mittlere Quadrat wird dabei komplett mit Blättern gefüllt. Jedes der verbleibenden 8 Quadrate wird wieder nach demselben Schema weiter unterteilt.
 
-.Verschiedene Größen für den Sierpinski Teppich
-image:images/small.png[Ausgangssituation, width=24%, pdfwidth=40%]
-image:images/medium.png[Ausgangssituation, width=24%, pdfwidth=40%]
-image:images/large.png[Ausgangssituation, width=24%, pdfwidth=40%]
-image:images/xlarge.png[Ausgangssituation, width=24%, pdfwidth=40%]
+.Verschiedene Größen für den Sierpinski Teppich (3x3,9x9, 27x27, 81x81)
+image:images/small.png[Ausgangssituation, width=24%, pdfwidth=24%]
+image:images/medium.png[Ausgangssituation, width=24%, pdfwidth=24%]
+image:images/large.png[Ausgangssituation, width=24%, pdfwidth=24%]
+image:images/xlarge.png[Ausgangssituation, width=24%, pdfwidth=24%]
 
